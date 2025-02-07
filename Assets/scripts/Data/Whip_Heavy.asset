@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5929c2b4e91548d46886f30822e6ad1a, type: 3}
+  m_Name: Whip_Heavy
+  m_EditorClassIdentifier: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 923bb13a79bea06498a3236ec9f0afed, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 5010443176282161164
+  - rid: 5010443176282161165
+  - rid: 5010443176282161166
+  references:
+    version: 2
+    RefIds:
+    - rid: 5010443176282161164
+      type: {class: ActionHitBoxData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.86
+            y: -1.4
+            width: 8.94
+            height: 4.69
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 5120
+    - rid: 5010443176282161165
+      type: {class: DamageData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 8
+          <AttackPowerCoefficient>k__BackingField: 4
+    - rid: 5010443176282161166
+      type: {class: WeaponSpriteData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 21300000, guid: 2af9fc40f42769149ac08b70764ed686, type: 3}
+            - {fileID: 21300000, guid: 78f69928bc98bb64a8f9c4b5a53939f7, type: 3}
+            - {fileID: 21300000, guid: f8192b843c30f104a81e40f4701fc74a, type: 3}
+            - {fileID: 21300000, guid: e77323e26820dd04ca992905a7608215, type: 3}
+            - {fileID: 21300000, guid: de237513ffbe90d43a33d1ed3d0a9285, type: 3}
+            - {fileID: 21300000, guid: 51374d4f066a2c74d9df3fbedb534a2f, type: 3}
+          <ManaCost>k__BackingField: 10

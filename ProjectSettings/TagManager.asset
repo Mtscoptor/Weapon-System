@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Wall
+  - SavePoint
+  - Ladder
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - DropItems
+  - Water
+  - UI
+  - Player
+  - Ladder
+  - Hammer
+  - Ground
+  - Enemy
+  - trap
+  - Damageable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Drops
+    uniqueID: 2184584689
+    locked: 0
+  - name: Player
+    uniqueID: 2064253355
+    locked: 0
+  - name: UI
+    uniqueID: 406059249
+    locked: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5929c2b4e91548d46886f30822e6ad1a, type: 3}
+  m_Name: Knife_Normal
+  m_EditorClassIdentifier: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 923bb13a79bea06498a3236ec9f0afed, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 5010443002428522497
+  - rid: 5010443113562636294
+  - rid: 5010443136135856128
+  references:
+    version: 2
+    RefIds:
+    - rid: 5010443002428522497
+      type: {class: WeaponSpriteData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 21300000, guid: 9b61700930500db469effec4fd7aea80, type: 3}
+            - {fileID: 21300000, guid: f3de06d83d381744b88170d52f7298ca, type: 3}
+            - {fileID: 21300000, guid: a1bc3ef5bd64b5140b52a70fe1c93093, type: 3}
+            - {fileID: 21300000, guid: 8863b5e60f5acfc44acac12e30f5152b, type: 3}
+            - {fileID: 21300000, guid: eb24db03b886cef42b170f21b4de414f, type: 3}
+            - {fileID: 21300000, guid: 666fe42da1ae2984a99c4858b8c290f7, type: 3}
+          <ManaCost>k__BackingField: 0
+    - rid: 5010443113562636294
+      type: {class: ActionHitBoxData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 0
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: -0.79
+            y: -1.44
+            width: 5.35
+            height: 3.65
+        <DetectableLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 5120
+    - rid: 5010443136135856128
+      type: {class: DamageData, ns: Bardent.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 4
+          <AttackPowerCoefficient>k__BackingField: 1
